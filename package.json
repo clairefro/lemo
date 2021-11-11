@@ -7,6 +7,7 @@
   "author": "Claire Froelich",
   "license": "MIT",
   "scripts": {
+    "build": "yarn tsc",
     "server:dev": "yarn workspace server dev",
     "dev": "yarn server:dev"
   },

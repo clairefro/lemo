@@ -1,0 +1,8 @@
+{
+  "name": "lemo",
+  "version": "1.0.0",
+  "description": "Virutal expo space for demos and chat",
+  "main": "index.js",
+  "author": "Claire Froelich",
+  "license": "MIT"
+}

@@ -5,7 +5,8 @@
   "author": "Claire Froelich",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "lint": "eslint . --ext .ts"
   },
   "dependencies": {
     "express": "4.17.1"

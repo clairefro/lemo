@@ -1,8 +1,17 @@
 {
   "name": "lemo",
+  "private": true,
   "version": "1.0.0",
   "description": "Virutal expo space for demos and chat",
   "main": "index.js",
   "author": "Claire Froelich",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "server:dev": "yarn workspace server dev"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
 }
